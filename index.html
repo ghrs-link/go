@@ -17,8 +17,10 @@
 (function () {
   // 経路名（src）→ 行き先URL。経路を増やすときは、ここに1行足す
   var ROUTES = {
-    "test_a": "https://note.com/ghrs",
-    "test_b": "https://note.com/ghrs"
+    "yt_note": "https://note.com/ghrs",                 // YouTube（概要欄）→ note
+    "yt_line": "https://line.me/ti/p/%40150xujnk",      // YouTube（概要欄）→ LINE（Lステップ）
+    "seminar_note": "https://note.com/ghrs",            // セミナー資料のQR → note
+    "event_note": "https://note.com/ghrs"               // イベント（EXPOなど）のQR → note
   };
   // 一覧にない経路名のときの行き先
   var DEFAULT_URL = "https://note.com/ghrs";
